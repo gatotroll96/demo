@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+
+RewriteRule		index.html 			index.php?module=default&controller=index&action=index
+RewriteRule		category.html 		index.php?module=default&controller=category&action=index
+RewriteRule		register.html 		index.php?module=default&controller=user&action=register
+RewriteRule		login.html 			index.php?module=default&controller=user&action=login
+RewriteRule		cart.html 			index.php?module=default&controller=book&action=cart
+RewriteRule		my-account.html 	index.php?module=default&controller=user&action=index
+RewriteRule		history.html 		index.php?module=default&controller=user&action=history
+

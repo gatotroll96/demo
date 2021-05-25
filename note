@@ -1,0 +1,14 @@
+
+DATABASE
+ 	DB_HOST : localhost
+	DB_USER	:root						
+ 	DB_PASS :''						
+ 	DB_NAME	:bookstore');
+
+Account	Admin
+user : admin
+password : 123456cc					
+
+ 
+
+ 
